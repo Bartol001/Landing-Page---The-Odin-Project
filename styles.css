@@ -42,9 +42,13 @@ a {
     padding: 70px 750px;
 }
 
-
 .container-body-one {
     padding: 70px 750px;
+}
+
+.container-body-two {
+    padding: 70px 750px;
+    background-color: #DCBF04;
 }
 
 
@@ -146,7 +150,6 @@ a {
     gap: 0 20px;
 }
 
-
 .media-object {
     width: 150px;
     display: flex;
@@ -154,8 +157,6 @@ a {
     align-items: center;
     gap: 10px 0;
 }
-
-
 
 .body-one-heading div {
     font-size: 32px;
@@ -169,4 +170,29 @@ a {
 
 .media-object-text {
     text-align: center;
+}
+
+
+
+
+
+
+
+
+.body-two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.quote {
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 60px;
 }
