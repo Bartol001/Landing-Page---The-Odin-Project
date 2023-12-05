@@ -10,8 +10,8 @@ html {
 
 body {
     border: 2px solid orange;
-    width: 60vw;   /* because my viewport size is too big, due to large monitor; 60vw = 60% of the viewport size */
-    margin: 0 auto; /* to center the body element horizontally */
+       /* because my viewport size is too big, due to large monitor; 60vw = 60% of the viewport size */
+     /* to center the body element horizontally */
 }
 
 
@@ -26,6 +26,12 @@ a {
 
 
 
+.container-one {
+    padding: 0 500px;
+    background-color: #EEB400;
+}
+
+
 
 
 /* Header section */
@@ -34,7 +40,6 @@ a {
     height: 90px;
     display: flex;
     justify-content: space-between;
-    background-color: #EEB400;
     padding: 0 70px;
 }
 
@@ -62,7 +67,6 @@ a {
 /* Hero section */
 
 .hero {
-    background-color: #EEB400;
     padding: 70px 100px;
     display: flex;
 }
@@ -73,6 +77,11 @@ a {
     align-items: flex-start;
     gap: 15px 0;
 }
+
+.hero-right {
+    display: flex;   /* so that the hero-image fills entire flex container (that is .hero-right) */
+}
+
 
 
 
