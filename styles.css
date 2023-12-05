@@ -43,6 +43,10 @@ a {
 }
 
 
+.container-body-one {
+    padding: 70px 750px;
+}
+
 
 
 
@@ -92,7 +96,6 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px 0;
-    height: fit-content;
 }
 
 .hero-right {
@@ -111,10 +114,59 @@ a {
 .hero-paragraph {
     width: 600px;
     font-size: 22px;
+    flex: 1 0 auto;
 }
 
 .hero-button {
     font-size: 18px;
     padding: 5px 15px;
     border-radius: 10px;
+}
+
+
+
+
+
+/* Body section */
+
+.body-one {                      /* flex container that contains .body-one-heading and .body-one-images as flex items */
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+}
+
+.body-one-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.body-one-media-objects {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+}
+
+
+.media-object {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+}
+
+
+
+.body-one-heading div {
+    font-size: 32px;
+}
+
+.media-object img {
+    border: 2px solid green;
+    border-radius: 12px;
+    padding: 15px;                /* increasing this padding will make border overflow the flex container (that is .media-object), because the .media-object has width property set (which means the width of the flex container is respected, i.e. remains the same) */
+}
+
+.media-object-text {
+    text-align: center;
 }
