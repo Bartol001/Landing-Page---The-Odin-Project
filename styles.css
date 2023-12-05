@@ -39,16 +39,20 @@ a {
 
 .container-hero {
     background-color: #EEB400;
-    padding: 70px 750px;
+    padding: 100px 700px;
 }
 
 .container-body-one {
-    padding: 70px 750px;
+    padding: 100px 750px;
 }
 
 .container-body-two {
-    padding: 70px 750px;
+    padding: 100px 750px;
     background-color: #DCBF04;
+}
+
+.container-body-three {
+    padding: 100px 700px;
 }
 
 
@@ -124,7 +128,7 @@ a {
 .hero-button {
     font-size: 18px;
     padding: 5px 15px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 
@@ -177,17 +181,17 @@ a {
 
 
 
+/* Quote section */
 
-
-.body-two {
+.body-quote {
     display: flex;
     flex-direction: column;
     gap: 10px 0;
 }
 
 .quote {
-    font-size: 26px;
-    line-height: 40px;
+    font-size: 36px;
+    line-height: 46px;
 }
 
 .author {
@@ -195,4 +199,42 @@ a {
     font-weight: 700;
     text-align: end;
     padding-right: 60px;
+}
+
+
+
+/* CTA section */
+
+.body-cta {
+    display: flex;
+    align-items: flex-end;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    padding: 50px 50px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+    flex: 1 0 auto;
+}
+
+
+.cta-text-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-text-description {
+    font-size: 18px;
+}
+
+.cta-button {
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid green;
+    background-color: transparent;
 }
