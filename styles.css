@@ -1,0 +1,94 @@
+* {
+    border: 1px solid blue;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    border: 2px solid green;
+}
+
+body {
+    border: 2px solid orange;
+    width: 60vw;   /* because my viewport size is too big, due to large monitor; 60vw = 60% of the viewport size */
+    margin: 0 auto; /* to center the body element horizontally */
+}
+
+
+
+
+/* General styling */
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Header section */
+
+.header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEB400;
+    padding: 0 70px;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-links li a {
+    color: black;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+
+
+
+/* Hero section */
+
+.hero {
+    background-color: #EEB400;
+    padding: 70px 100px;
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px 0;
+}
+
+
+
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-paragraph {
+    flex: 1 0 auto;
+    font-size: 18px;
+}
+
+.hero-button {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
