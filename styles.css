@@ -1,4 +1,4 @@
-* {
+/* * {
     border: 1px solid blue;
     margin: 0;
     padding: 0;
@@ -10,10 +10,8 @@ html {
 
 body {
     border: 2px solid orange;
-       /* because my viewport size is too big, due to large monitor; 60vw = 60% of the viewport size */
-     /* to center the body element horizontally */
 }
-
+*/
 
 
 
@@ -22,9 +20,6 @@ body {
 a {
     text-decoration: none;
 }
-
-
-
 
 
 
@@ -55,6 +50,10 @@ a {
     padding: 100px 700px;
 }
 
+.container-footer {
+    background-color: #EEB400;
+}
+
 
 
 
@@ -81,6 +80,7 @@ a {
 .logo-container {
     display: flex;
     align-items: center;
+    gap: 0 15px;
 }
 
 .header-links li a {
@@ -89,6 +89,10 @@ a {
     text-transform: lowercase;
 }
 
+.logo-text {
+    text-transform: uppercase;
+    font-size: 24px;
+}
 
 
 
@@ -121,7 +125,7 @@ a {
 
 .hero-paragraph {
     width: 600px;
-    font-size: 22px;
+    font-size: 18px;
     flex: 1 0 auto;
 }
 
@@ -129,6 +133,7 @@ a {
     font-size: 18px;
     padding: 5px 15px;
     border-radius: 12px;
+    border: 3px solid hsla(330, 48.5%, 32%, 1);
 }
 
 
@@ -163,11 +168,11 @@ a {
 }
 
 .body-one-heading div {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .media-object img {
-    border: 2px solid green;
+    border: 2px solid hsla(330, 48.5%, 32%, 1);
     border-radius: 12px;
     padding: 15px;                /* increasing this padding will make border overflow the flex container (that is .media-object), because the .media-object has width property set (which means the width of the flex container is respected, i.e. remains the same) */
 }
@@ -235,6 +240,25 @@ a {
     height: 40px;
     font-size: 18px;
     border-radius: 12px;
-    border: 2px solid green;
+    border: 3px solid hsla(330, 48.5%, 32%, 1);
     background-color: transparent;
+}
+
+
+
+/* Footer section */
+
+.footer {
+    padding: 50px 750px;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attributions div {
+    text-align: center;
+    margin-bottom: 2px;
 }
